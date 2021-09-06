@@ -24,6 +24,9 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "react/no-danger": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/control-has-associated-label": "off",
     "arrow-parens": "off",
     "import/no-duplicates": "off",
     "import/prefer-default-export": "off",
