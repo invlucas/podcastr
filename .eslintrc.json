@@ -5,9 +5,9 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "airbnb",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -18,19 +18,19 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react",
     "prettier",
+    "react",
     "react-hooks",
     "@typescript-eslint"
   ],
   "rules": {
+    "jsx-a11y/media-has-caption": "off",
+    "react/prop-types": "off",
     "react/no-danger": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/control-has-associated-label": "off",
-    "arrow-parens": "off",
     "import/no-duplicates": "off",
     "import/prefer-default-export": "off",
-    "object-curly-newline": "off",
     "react-hooks/rules-of-hooks": "error",
     "prettier/prettier": "error",
     "react-hooks/exhaustive-deps": "warn",
