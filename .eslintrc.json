@@ -24,6 +24,7 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "react/jsx-no-bind": "off",
     "jsx-a11y/media-has-caption": "off",
     "react/prop-types": "off",
     "react/no-danger": "off",
